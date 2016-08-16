@@ -176,7 +176,7 @@ class Bingo:
 if __name__ == "__main__":
     # app info
     window_title = "Scammer Bingo - Python Edition"
-    window_icon = "resx/favicon.ico"
+    window_icon = "resx\\favicon.ico"
 
     root = tk.Tk()
     app = Bingo(root)
