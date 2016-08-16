@@ -150,6 +150,5 @@ ENV/
 
 ### Batch ###
 # BatchFiles
-*.bat
 *.cmd
 *.btm
