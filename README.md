@@ -23,15 +23,18 @@ Installation
 
 SBR-Python is compatible with the following environments:
 
- - Any OS that runs **`Python 3.5`**:
- 1. Install the following module/s:
-	   - [Pygubu](https://github.com/alejandroautalan/pygubu)
- 2. Navigate to the cloned/downloaded main directory
+- Any OS that runs **`Python 3.5`**:
+
+ 1. Install the following module/s:  
+[Pygubu](https://github.com/alejandroautalan/pygubu)
+
+ 2. Navigate to the cloned/downloaded main directory:  
 `$ cd Scammer-Bingo-Reborn-Python`
- 3. Run the start bat launcher
+
+ 3. Run the start bat launcher  
 `$ start.bat`
 
- - ~~Windows XP/Vista/7/8+/10:~~
+~~Windows XP/Vista/7/8+/10:~~
 	 - TBD on release v1.0
 
 Future improvements
