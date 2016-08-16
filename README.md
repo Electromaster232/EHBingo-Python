@@ -34,7 +34,7 @@ SBR-Python is compatible with the following environments:
  3. Run the start bat launcher  
 `$ start.bat`
 
-~~Windows XP/Vista/7/8+/10:~~
+- ~~Windows XP/Vista/7/8+/10:~~
 	 - TBD on release v1.0
 
 Future improvements
