@@ -16,6 +16,7 @@ Information
 
 > - *16 August 2016.*
 >   - The main GUI widget has been finished and callback enhancement has been performed.
+>   - Launcher added (to be removed when installation wizard is created).
 
 Installation
 ------------
@@ -23,16 +24,22 @@ Installation
 SBR-Python is compatible with the following environments:
 
  - Any OS that runs **`Python 3.5`**:
-	 - Installing the following module/s:
+ 1. Install the following module/s:
 	   - [Pygubu](https://github.com/alejandroautalan/pygubu)
+ 2. Navigate to the cloned/downloaded main directory
+`$ cd Scammer-Bingo-Reborn-Python`
+ 3. Run the start bat launcher
+`$ start.bat`
+
  - ~~Windows XP/Vista/7/8+/10:~~
-	 - Added on release v1.0
+	 - TBD on release v1.0
 
 Future improvements
 -----------
 
  - GUI styling
  - Button editor
+ - Installation wizard
 
 Other versions
 -----------
