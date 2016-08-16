@@ -24,7 +24,7 @@ SBR-Python is compatible with the following environments:
 
  - Any OS that runs **`Python 3.5`**:
 	 - Installing the following module/s:
-	   - `![Pygubu](https://github.com/alejandroautalan/pygubu)`
+	   - ![Pygubu](https://github.com/alejandroautalan/pygubu)
  - ~~Windows XP/Vista/7/8+/10:~~
 	 - Added on release v1.0
 
