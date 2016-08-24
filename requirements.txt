@@ -1,1 +1,2 @@
-pygubu
+pygubu==0.9.7.8
+easygui=0.96
