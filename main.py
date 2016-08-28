@@ -185,6 +185,14 @@ class Bingo:
         self.master.quit()
 
 
+# Testing module for test_me.py
+def for_tests():
+    if Bingo(root) is None:
+        return True
+    else:
+        raise Exception
+
+
 if __name__ == "__main__":
     # app info
     window_title = "Scammer Bingo - Python Edition"

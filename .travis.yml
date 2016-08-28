@@ -1,6 +1,5 @@
 language: python
 python:
-  - "3.4"
   - "3.5"
-install: "pip install --upgrade requirements.txt"
-script: python main.py
+install: "pip install -U -r requirements.txt"
+script: nosetests
