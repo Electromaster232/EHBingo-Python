@@ -5,6 +5,7 @@ import tkinter as tk
 from tkinter import messagebox
 import pygubu
 from tkinter import ttk
+import logging
 
 
 class Bingo:
@@ -185,15 +186,16 @@ class Bingo:
         self.master.quit()
 
 
-# Testing module for test_me.py
 def for_tests():
-    if Bingo(root) is None:
+    d = False
+    if d is False:
         return True
     else:
         raise Exception
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.DEBUG)
     # app info
     window_title = "Scammer Bingo - Python Edition"
     window_icon = "resx/favicon.ico"
@@ -203,3 +205,6 @@ if __name__ == "__main__":
     app.master.title(window_title)
     root.iconbitmap(default=window_icon)
     root.mainloop()
+
+
+# Testing module for temp.py
