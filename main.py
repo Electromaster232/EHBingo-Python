@@ -4,7 +4,7 @@
 import tkinter as tk
 from tkinter import messagebox
 import pygubu
-from multiprocessing import Process
+from tkinter import ttk
 
 
 class Bingo:
@@ -43,6 +43,15 @@ class Bingo:
         self.current_score = int(self.score_meter["text"])
 
         self.builder.connect_callbacks(self)
+
+        self._setup_styles()
+
+    def _setup_styles(self):
+
+        s = ttk.Style()
+        s.configure("TFrame", background="#004080")
+        s.configure("TButton", foreground="#004080")
+        s.configure("TLabelFrame", foreground="#004080")
 
     def bingo_alert(self):
         if self.current_score == 20:
@@ -179,7 +188,7 @@ class Bingo:
 if __name__ == "__main__":
     # app info
     window_title = "Scammer Bingo - Python Edition"
-    window_icon = "resx\\favicon.ico"
+    window_icon = "resx/favicon.ico"
 
     root = tk.Tk()
     app = Bingo(root)
