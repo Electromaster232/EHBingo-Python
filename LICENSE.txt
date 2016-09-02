@@ -1,5 +1,3 @@
-# License
-
 Everything in this repo is BSD style license unless otherwise specified.
 
 Copyright (c) 2016 The Collective Developer Group. All rights reserved.
