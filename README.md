@@ -1,6 +1,6 @@
 # [Scammer Bingo Reborn Python Edition](https://github.com/margobra8/scammer-bingo-reborn-python/releases)
 
-![Downloads](https://img.shields.io/github/downloads/margobra8/Caepy/total.svg) [![Build Status](https://travis-ci.org/TCDG/Scammer-Bingo-Reborn-Python.svg?branch=master)](https://travis-ci.org/TCDG/Scammer-Bingo-Reborn-Python)
+[![Build Status](https://travis-ci.org/TCDG/Scammer-Bingo-Reborn-Python.svg?branch=master)](https://travis-ci.org/TCDG/Scammer-Bingo-Reborn-Python)
 
 This is the Python Community Edition of **Jim Browning' Scammer Bingo**
 
