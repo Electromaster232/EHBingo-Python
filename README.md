@@ -17,6 +17,8 @@ Information
 > - *16 August 2016.*
 >   - The main GUI widget has been finished and callback enhancement has been performed.
 >   - Launcher added (to be removed when installation wizard is created).
+> - *29 November 2016.*
+>   - App icon feature removed in favour of compatibility
 
 Installation
 ------------
