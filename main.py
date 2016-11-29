@@ -198,12 +198,12 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     # app info
     window_title = "Scammer Bingo - Python Edition"
-    window_icon = "resx/favicon.ico"
+    # window_icon = "resx/favicon.ico"
 
     root = tk.Tk()
     app = Bingo(root)
     app.master.title(window_title)
-    root.iconbitmap(default=window_icon)
+    # root.iconbitmap(default=window_icon)
     root.mainloop()
 
 
