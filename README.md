@@ -33,7 +33,9 @@ SBR-Python is compatible with the following environments:
 `$ cd Scammer-Bingo-Reborn-Python`
 
  3. Run the start bat launcher  
-`$ start.bat`
+`$ start.bat` (Windows/DOS based)
+or
+`$ python main.py`
 
 - ~~Windows XP/Vista/7/8+/10:~~
 	 - TBD on release v1.0
