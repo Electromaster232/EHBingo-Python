@@ -29,16 +29,6 @@ class Bingo:
         self.button_8 = self.builder.get_object("Button_8", master)
         self.button_9 = self.builder.get_object("Button_9", master)
         self.button_10 = self.builder.get_object("Button_10", master)
-        self.button_11 = self.builder.get_object("Button_11", master)
-        self.button_12 = self.builder.get_object("Button_12", master)
-        self.button_13 = self.builder.get_object("Button_13", master)
-        self.button_14 = self.builder.get_object("Button_14", master)
-        self.button_15 = self.builder.get_object("Button_15", master)
-        self.button_16 = self.builder.get_object("Button_16", master)
-        self.button_17 = self.builder.get_object("Button_17", master)
-        self.button_18 = self.builder.get_object("Button_18", master)
-        self.button_19 = self.builder.get_object("Button_19", master)
-        self.button_20 = self.builder.get_object("Button_20", master)
         self.score_meter = self.builder.get_object("score", master)
 
         self.current_score = int(self.score_meter["text"])
@@ -122,65 +112,6 @@ class Bingo:
         self.current_score = int(self.score_meter["text"])
         self.bingo_alert()
 
-    def on_button_11_click(self):
-        self.button_11["state"] = "disabled"
-        self.score_meter["text"] = self.current_score + 1
-        self.current_score = int(self.score_meter["text"])
-        self.bingo_alert()
-
-    def on_button_12_click(self):
-        self.button_12["state"] = "disabled"
-        self.score_meter["text"] = self.current_score + 1
-        self.current_score = int(self.score_meter["text"])
-        self.bingo_alert()
-
-    def on_button_13_click(self):
-        self.button_13["state"] = "disabled"
-        self.score_meter["text"] = self.current_score + 1
-        self.current_score = int(self.score_meter["text"])
-        self.bingo_alert()
-
-    def on_button_14_click(self):
-        self.button_14["state"] = "disabled"
-        self.score_meter["text"] = self.current_score + 1
-        self.current_score = int(self.score_meter["text"])
-        self.bingo_alert()
-
-    def on_button_15_click(self):
-        self.button_15["state"] = "disabled"
-        self.score_meter["text"] = self.current_score + 1
-        self.current_score = int(self.score_meter["text"])
-        self.bingo_alert()
-
-    def on_button_16_click(self):
-        self.button_16["state"] = "disabled"
-        self.score_meter["text"] = self.current_score + 1
-        self.current_score = int(self.score_meter["text"])
-        self.bingo_alert()
-
-    def on_button_17_click(self):
-        self.button_17["state"] = "disabled"
-        self.score_meter["text"] = self.current_score + 1
-        self.current_score = int(self.score_meter["text"])
-        self.bingo_alert()
-
-    def on_button_18_click(self):
-        self.button_18["state"] = "disabled"
-        self.score_meter["text"] = self.current_score + 1
-        self.current_score = int(self.score_meter["text"])
-        self.bingo_alert()
-
-    def on_button_19_click(self):
-        self.button_19["state"] = "disabled"
-        self.score_meter["text"] = self.current_score + 1
-        self.current_score = int(self.score_meter["text"])
-        self.bingo_alert()
-
-    def on_button_20_click(self):
-        self.button_20["state"] = "disabled"
-        self.score_meter["text"] = self.current_score + 1
-        self.current_score = int(self.score_meter["text"])
-        self.bingo_alert()
 
     def on_button_quit_click(self):
         self.master.quit()
