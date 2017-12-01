@@ -20,7 +20,7 @@
     <child>
       <object class="ttk.Button" id="Button_1">
         <property name="command">on_button_1_click</property>
-        <property name="text" translatable="yes">cmd</property>
+        <property name="text" translatable="yes">Server Crashed</property>
         <layout>
           <property name="column">0</property>
           <property name="columnspan">1</property>
@@ -36,7 +36,7 @@
     <child>
       <object class="ttk.Button" id="Button_2">
         <property name="command">on_button_2_click</property>
-        <property name="text" translatable="yes">hh h</property>
+        <property name="text" translatable="yes">ban</property>
         <layout>
           <property name="column">0</property>
           <property name="ipadx">10</property>
@@ -51,7 +51,7 @@
     <child>
       <object class="ttk.Button" id="Button_3">
         <property name="command">on_button_3_click</property>
-        <property name="text" translatable="yes">Security</property>
+        <property name="text" translatable="yes">kek</property>
         <layout>
           <property name="column">0</property>
           <property name="ipadx">10</property>
@@ -66,7 +66,7 @@
     <child>
       <object class="ttk.Button" id="Button_4">
         <property name="command">on_button_4_click</property>
-        <property name="text" translatable="yes">netstat</property>
+        <property name="text" translatable="yes">@DJ Electro</property>
         <layout>
           <property name="column">0</property>
           <property name="ipadx">10</property>
@@ -81,7 +81,7 @@
     <child>
       <object class="ttk.Button" id="Button_5">
         <property name="command">on_button_5_click</property>
-        <property name="text" translatable="yes">tree</property>
+        <property name="text" translatable="yes">hi can I be staff?</property>
         <layout>
           <property name="column">1</property>
           <property name="ipadx">10</property>
@@ -96,7 +96,7 @@
     <child>
       <object class="ttk.Button" id="Button_6">
         <property name="command">on_button_6_click</property>
-        <property name="text" translatable="yes">Wirus</property>
+        <property name="text" translatable="yes">The bot is not working!</property>
         <layout>
           <property name="column">1</property>
           <property name="ipadx">10</property>
@@ -111,7 +111,7 @@
     <child>
       <object class="ttk.Button" id="Button_7">
         <property name="command">on_button_7_click</property>
-        <property name="text" translatable="yes">syskey</property>
+        <property name="text" translatable="yes">spam</property>
         <layout>
           <property name="column">1</property>
           <property name="ipadx">10</property>
@@ -126,7 +126,7 @@
     <child>
       <object class="ttk.Button" id="Button_8">
         <property name="command">on_button_8_click</property>
-        <property name="text" translatable="yes">Do One Thing</property>
+        <property name="text" translatable="yes">Just click here</property>
         <layout>
           <property name="column">1</property>
           <property name="ipadx">10</property>
@@ -141,7 +141,7 @@
     <child>
       <object class="ttk.Button" id="Button_9">
         <property name="command">on_button_9_click</property>
-        <property name="text" translatable="yes">$</property>
+        <property name="text" translatable="yes">download this</property>
         <layout>
           <property name="column">2</property>
           <property name="ipadx">10</property>
@@ -156,7 +156,7 @@
     <child>
       <object class="ttk.Button" id="Button_10">
         <property name="command">on_button_10_click</property>
-        <property name="text" translatable="yes">Run</property>
+        <property name="text" translatable="yes">OY</property>
         <layout>
           <property name="column">2</property>
           <property name="ipadx">10</property>
@@ -168,216 +168,6 @@
         </layout>
       </object>
     </child>
-    <child>
-      <object class="ttk.Button" id="Button_11">
-        <property name="command">on_button_11_click</property>
-        <property name="text" translatable="yes">Certified</property>
-        <layout>
-          <property name="column">2</property>
-          <property name="ipadx">10</property>
-          <property name="ipady">10</property>
-          <property name="padx">10</property>
-          <property name="pady">10</property>
-          <property name="propagate">True</property>
-          <property name="row">2</property>
-        </layout>
-      </object>
-    </child>
-    <child>
-      <object class="ttk.Button" id="Button_12">
-        <property name="command">on_button_12_click</property>
-        <property name="text" translatable="yes">Secure Server</property>
-        <layout>
-          <property name="column">2</property>
-          <property name="ipadx">10</property>
-          <property name="ipady">10</property>
-          <property name="padx">10</property>
-          <property name="pady">10</property>
-          <property name="propagate">True</property>
-          <property name="row">3</property>
-        </layout>
-      </object>
-    </child>
-    <child>
-      <object class="ttk.Button" id="Button_13">
-        <property name="command">on_button_13_click</property>
-        <property name="text" translatable="yes">Hackers</property>
-        <layout>
-          <property name="column">3</property>
-          <property name="ipadx">10</property>
-          <property name="ipady">10</property>
-          <property name="padx">10</property>
-          <property name="pady">10</property>
-          <property name="propagate">True</property>
-          <property name="row">0</property>
-        </layout>
-      </object>
-    </child>
-    <child>
-      <object class="ttk.Button" id="Button_14">
-        <property name="command">on_button_14_click</property>
-        <property name="text" translatable="yes">Bad files</property>
-        <layout>
-          <property name="column">3</property>
-          <property name="ipadx">10</property>
-          <property name="ipady">10</property>
-          <property name="padx">10</property>
-          <property name="pady">10</property>
-          <property name="propagate">True</property>
-          <property name="row">1</property>
-        </layout>
-      </object>
-    </child>
-    <child>
-      <object class="ttk.Button" id="Button_15">
-        <property name="command">on_button_15_click</property>
-        <property name="text" translatable="yes">Bad drivers</property>
-        <layout>
-          <property name="column">3</property>
-          <property name="ipadx">10</property>
-          <property name="ipady">10</property>
-          <property name="padx">10</property>
-          <property name="pady">10</property>
-          <property name="propagate">True</property>
-          <property name="row">2</property>
-        </layout>
-      </object>
-    </child>
-    <child>
-      <object class="ttk.Button" id="Button_16">
-        <property name="command">on_button_16_click</property>
-        <property name="text" translatable="yes">support.me</property>
-        <layout>
-          <property name="column">3</property>
-          <property name="ipadx">10</property>
-          <property name="ipady">10</property>
-          <property name="padx">10</property>
-          <property name="pady">10</property>
-          <property name="propagate">True</property>
-          <property name="row">3</property>
-        </layout>
-      </object>
-    </child>
-    <child>
-      <object class="ttk.Button" id="Button_17">
-        <property name="command">on_button_17_click</property>
-        <property name="text" translatable="yes">msconfig</property>
-        <layout>
-          <property name="column">4</property>
-          <property name="ipadx">10</property>
-          <property name="ipady">10</property>
-          <property name="padx">10</property>
-          <property name="pady">10</property>
-          <property name="propagate">True</property>
-          <property name="row">0</property>
-        </layout>
-      </object>
-    </child>
-    <child>
-      <object class="ttk.Button" id="Button_18">
-        <property name="command">on_button_18_click</property>
-        <property name="text" translatable="yes">Fuck off</property>
-        <layout>
-          <property name="column">4</property>
-          <property name="ipadx">10</property>
-          <property name="ipady">10</property>
-          <property name="padx">10</property>
-          <property name="pady">10</property>
-          <property name="propagate">True</property>
-          <property name="row">1</property>
-        </layout>
-      </object>
-    </child>
-    <child>
-      <object class="ttk.Button" id="Button_19">
-        <property name="command">on_button_19_click</property>
-        <property name="text" translatable="yes">Supervisor</property>
-        <layout>
-          <property name="column">4</property>
-          <property name="ipadx">10</property>
-          <property name="ipady">10</property>
-          <property name="padx">10</property>
-          <property name="pady">10</property>
-          <property name="propagate">True</property>
-          <property name="row">2</property>
-        </layout>
-      </object>
-    </child>
-    <child>
-      <object class="ttk.Button" id="Button_20">
-        <property name="command">on_button_20_click</property>
-        <property name="text" translatable="yes">eventvwr</property>
-        <layout>
-          <property name="column">4</property>
-          <property name="ipadx">10</property>
-          <property name="ipady">10</property>
-          <property name="padx">10</property>
-          <property name="pady">10</property>
-          <property name="propagate">True</property>
-          <property name="row">3</property>
-        </layout>
-      </object>
-    </child>
-    <child>
-      <object class="ttk.Labelframe" id="menu">
-        <property name="borderwidth">6</property>
-        <property name="height">200</property>
-        <property name="text" translatable="yes">Menu</property>
-        <property name="width">200</property>
-        <layout>
-          <property name="column">0</property>
-          <property name="columnspan">5</property>
-          <property name="ipadx">0</property>
-          <property name="pady">5</property>
-          <property name="propagate">True</property>
-          <property name="row">4</property>
-        </layout>
-        <child>
-          <object class="ttk.Label" id="Label_1">
-            <property name="font">{Arial} 12 {}</property>
-            <property name="text" translatable="yes">Score:</property>
-            <layout>
-              <property name="column">0</property>
-              <property name="propagate">True</property>
-              <property name="row">0</property>
-            </layout>
-          </object>
-        </child>
-        <child>
-          <object class="ttk.Label" id="score">
-            <property name="font">{Arial} 12 {}</property>
-            <property name="text" translatable="yes">0</property>
-            <layout>
-              <property name="column">1</property>
-              <property name="propagate">True</property>
-              <property name="row">0</property>
-            </layout>
-          </object>
-        </child>
-        <child>
-          <object class="ttk.Label" id="Label_3">
-            <property name="font">{Arial} 12 {}</property>
-            <property name="text" translatable="yes">/ 20</property>
-            <layout>
-              <property name="column">3</property>
-              <property name="propagate">True</property>
-              <property name="row">0</property>
-            </layout>
-          </object>
-        </child>
-        <child>
-          <object class="ttk.Button" id="Button_quit">
-            <property name="command">on_button_quit_click</property>
-            <property name="text" translatable="yes">Quit</property>
-            <layout>
-              <property name="column">4</property>
-              <property name="padx">5</property>
-              <property name="pady">5</property>
-              <property name="propagate">True</property>
-              <property name="row">0</property>
-            </layout>
-          </object>
-        </child>
       </object>
     </child>
   </object>
