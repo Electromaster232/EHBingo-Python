@@ -45,10 +45,10 @@ class Bingo:
         s.configure("TLabelFrame", foreground="#004080")
 
     def bingo_alert(self):
-        if self.current_score == 20:
+        if self.current_score == 10:
             messagebox.showinfo("Good Game", "NOICE M8 APARENTLY ALL THESE THINGS HAPPENED TO U KEK...")
-        elif self.current_score == 10:
-            messagebox.showinfo("Half way there!", "You are 10 steps behind from ratting out the scammer")
+        elif self.current_score == 5:
+            messagebox.showinfo("Half way there!", "HALF WAY KEK")
         else:
             pass
 
