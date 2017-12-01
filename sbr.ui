@@ -207,7 +207,7 @@
         <child>
           <object class="ttk.Label" id="Label_3">
             <property name="font">{Arial} 12 {}</property>
-            <property name="text" translatable="yes">/ 20</property>
+            <property name="text" translatable="yes">/ 10</property>
             <layout>
               <property name="column">3</property>
               <property name="propagate">True</property>
