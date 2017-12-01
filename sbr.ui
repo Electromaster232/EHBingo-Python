@@ -228,5 +228,7 @@
             </layout>
           </object>
         </child>
+       </object>
+     </child>
   </object>
 </interface>
