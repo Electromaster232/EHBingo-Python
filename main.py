@@ -56,7 +56,7 @@ class Bingo:
 
     def bingo_alert(self):
         if self.current_score == 20:
-            messagebox.showinfo("You win!", "Bingo! This scammer is certainly messing with you...")
+            messagebox.showinfo("Good Game", "NOICE M8 APARENTLY ALL THESE THINGS HAPPENED TO U KEK...")
         elif self.current_score == 10:
             messagebox.showinfo("Half way there!", "You are 10 steps behind from ratting out the scammer")
         else:
@@ -197,7 +197,7 @@ def for_tests():
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     # app info
-    window_title = "Scammer Bingo - Python Edition"
+    window_title = "FireSurvival Bingo"
     # window_icon = "resx/favicon.ico"
 
     root = tk.Tk()
