@@ -46,9 +46,9 @@ class Bingo:
 
     def bingo_alert(self):
         if self.current_score == 10:
-            messagebox.showinfo("Good Game", "NOICE M8 APARENTLY ALL THESE THINGS HAPPENED TO U KEK...")
+            messagebox.showinfo("Good Game", "Ok maybe its time to rework EH a bit")
         elif self.current_score == 5:
-            messagebox.showinfo("Half way there!", "HALF WAY KEK")
+            messagebox.showinfo("Half way there!", "Big oof")
         else:
             pass
 
