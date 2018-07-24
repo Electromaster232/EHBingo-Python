@@ -156,7 +156,7 @@
     <child>
       <object class="ttk.Button" id="Button_10">
         <property name="command">on_button_10_click</property>
-        <property name="text" translatable="yes">OY</property>
+        <property name="text" translatable="yes">Do the signups NOW!!!</property>
         <layout>
           <property name="column">2</property>
           <property name="ipadx">10</property>
