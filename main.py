@@ -128,7 +128,7 @@ def for_tests():
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     # app info
-    window_title = "FireSurvival Bingo"
+    window_title = "Endless Hosting Bingo"
     # window_icon = "resx/favicon.ico"
 
     root = tk.Tk()
