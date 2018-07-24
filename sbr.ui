@@ -188,7 +188,7 @@
         <property name="command">on_button_12_click</property>
         <property name="text" translatable="yes">Ross is a furry</property>
         <layout>
-          <property name="column">3</property>
+          <property name="column">2</property>
           <property name="ipadx">10</property>
           <property name="ipady">10</property>
           <property name="padx">10</property>
