@@ -114,7 +114,7 @@ class Bingo:
         self.current_score = int(self.score_meter["text"])
         self.bingo_alert()
         
-    def on_button_10_click(self):
+    def on_button_11_click(self):
         self.button_11["state"] = "disabled"
         self.score_meter["text"] = self.current_score + 1
         self.current_score = int(self.score_meter["text"])
