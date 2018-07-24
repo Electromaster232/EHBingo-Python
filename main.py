@@ -29,6 +29,8 @@ class Bingo:
         self.button_8 = self.builder.get_object("Button_8", master)
         self.button_9 = self.builder.get_object("Button_9", master)
         self.button_10 = self.builder.get_object("Button_10", master)
+        self.button_11 = self.builder.get_object("Button_11", master)
+        self.button_12 = self.builder.get_object("Button_12", master)
         self.score_meter = self.builder.get_object("score", master)
 
         self.current_score = int(self.score_meter["text"])
@@ -45,9 +47,9 @@ class Bingo:
         s.configure("TLabelFrame", foreground="#004080")
 
     def bingo_alert(self):
-        if self.current_score == 10:
+        if self.current_score == 12:
             messagebox.showinfo("Good Game", "Ok maybe its time to rework EH a bit")
-        elif self.current_score == 5:
+        elif self.current_score == 6:
             messagebox.showinfo("Half way there!", "Big oof")
         else:
             pass
@@ -108,6 +110,18 @@ class Bingo:
 
     def on_button_10_click(self):
         self.button_10["state"] = "disabled"
+        self.score_meter["text"] = self.current_score + 1
+        self.current_score = int(self.score_meter["text"])
+        self.bingo_alert()
+        
+    def on_button_10_click(self):
+        self.button_11["state"] = "disabled"
+        self.score_meter["text"] = self.current_score + 1
+        self.current_score = int(self.score_meter["text"])
+        self.bingo_alert()
+        
+    def on_button_12_click(self):
+        self.button_12["state"] = "disabled"
         self.score_meter["text"] = self.current_score + 1
         self.current_score = int(self.score_meter["text"])
         self.bingo_alert()
