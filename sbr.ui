@@ -36,7 +36,7 @@
     <child>
       <object class="ttk.Button" id="Button_2">
         <property name="command">on_button_2_click</property>
-        <property name="text" translatable="yes">ban</property>
+        <property name="text" translatable="yes">You got Banned</property>
         <layout>
           <property name="column">0</property>
           <property name="ipadx">10</property>
@@ -51,7 +51,7 @@
     <child>
       <object class="ttk.Button" id="Button_3">
         <property name="command">on_button_3_click</property>
-        <property name="text" translatable="yes">kek</property>
+        <property name="text" translatable="yes">Roles removed</property>
         <layout>
           <property name="column">0</property>
           <property name="ipadx">10</property>
@@ -81,7 +81,7 @@
     <child>
       <object class="ttk.Button" id="Button_5">
         <property name="command">on_button_5_click</property>
-        <property name="text" translatable="yes">hi can I be staff?</property>
+        <property name="text" translatable="yes">@everyone</property>
         <layout>
           <property name="column">1</property>
           <property name="ipadx">10</property>
@@ -96,7 +96,7 @@
     <child>
       <object class="ttk.Button" id="Button_6">
         <property name="command">on_button_6_click</property>
-        <property name="text" translatable="yes">The bot is not working!</property>
+        <property name="text" translatable="yes">Server DOWN</property>
         <layout>
           <property name="column">1</property>
           <property name="ipadx">10</property>
@@ -111,7 +111,7 @@
     <child>
       <object class="ttk.Button" id="Button_7">
         <property name="command">on_button_7_click</property>
-        <property name="text" translatable="yes">spam</property>
+        <property name="text" translatable="yes">DNS Broke</property>
         <layout>
           <property name="column">1</property>
           <property name="ipadx">10</property>
@@ -126,7 +126,7 @@
     <child>
       <object class="ttk.Button" id="Button_8">
         <property name="command">on_button_8_click</property>
-        <property name="text" translatable="yes">Just click here</property>
+        <property name="text" translatable="yes">Asa banned</property>
         <layout>
           <property name="column">1</property>
           <property name="ipadx">10</property>
@@ -141,7 +141,7 @@
     <child>
       <object class="ttk.Button" id="Button_9">
         <property name="command">on_button_9_click</property>
-        <property name="text" translatable="yes">download this</property>
+        <property name="text" translatable="yes">cPanel machine broke</property>
         <layout>
           <property name="column">2</property>
           <property name="ipadx">10</property>
