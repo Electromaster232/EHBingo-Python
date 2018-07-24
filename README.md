@@ -1,4 +1,4 @@
-# Electromaster Tech Bingo!
+# Endless Hosting Bingo!
 A version of Scammer Bingo
 
 
@@ -7,7 +7,7 @@ A version of Scammer Bingo
 Installation
 ------------
 
-ElectroBingo-Python is compatible with the following environments:
+EndlessHosting bingo is compatible with the following environments:
 
 - Any OS that runs **`Python 3.5`**:
 
@@ -16,7 +16,7 @@ ElectroBingo-Python is compatible with the following environments:
 `$ pip install pygubu`
 
  2. Navigate to the cloned/downloaded main directory:  
-`$ cd ElectroBingo-Python`
+`$ cd EHBingo-Python`
 
  3. Run the start bat launcher  
 `$ start.bat` (Windows/DOS based)
